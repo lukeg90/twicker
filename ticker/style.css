@@ -1,0 +1,32 @@
+body {
+    overflow: hidden;
+    margin: 0;
+}
+
+header {
+    position: relative;
+    height: 50px;
+    border-bottom: 2px solid black;
+}
+
+.container {
+    white-space: nowrap;
+    position: absolute;
+    left: 100%;
+    padding-top: 15px;
+}
+
+a {
+    padding: 0 40px;
+    font-size: 20px;
+    font-family: "Courier Prime", monospace;
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    white-space: nowrap;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: blue;
+}
